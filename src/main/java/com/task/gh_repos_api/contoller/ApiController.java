@@ -1,6 +1,6 @@
 package com.task.gh_repos_api.contoller;
 
-import com.task.gh_repos_api.data.RepositoryData;
+import com.task.gh_repos_api.dto.RepositoryData;
 import com.task.gh_repos_api.service.ApiService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

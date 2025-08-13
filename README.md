@@ -30,7 +30,12 @@ Requirements
 2. Maven 3.9+
 
 Configuration
-1. The application does not require additional configuration.
+1. Application properties (override as needed):
+```
+github.api.base-url=https://api.github.com
+github.api.endpoints.user-repos=/users/{username}/repos
+github.api.endpoints.repo-branches=/repos/{owner}/{repo}/branches
+```
 
 API
 

@@ -1,8 +1,8 @@
 package com.task.gh_repos_api.service;
 
 import com.task.gh_repos_api.client.GithubClient;
-import com.task.gh_repos_api.data.Branch;
-import com.task.gh_repos_api.data.RepositoryData;
+import com.task.gh_repos_api.dto.Branch;
+import com.task.gh_repos_api.dto.RepositoryData;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
